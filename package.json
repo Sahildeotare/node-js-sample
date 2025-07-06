@@ -1,31 +1,21 @@
-I{llllzzz
-
-
-      	"name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
+{
+  "name": "js-sample",
+  "version": "1.0.0",
+  "description": "**For the most up to date test app to get you started on Heroku, head on over to [`node-js-getting-started`](https://github.com/heroku/node-js-getting-started).**",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.13.3"
-  },
-  "engines": {
-    "node": "4.0.0"
+    "start": "node index.js",
+  "test": "echo \"✅ Dummy test passed\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "git+https://github.com/Sahildeotare/node-js-sample.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
-  "license": "MIT"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahildeotare/node-js-sample/issues"
+  },
+  "homepage": "https://github.com/Sahildeotare/node-js-sample#readme"
 }
